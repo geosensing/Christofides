@@ -8,7 +8,6 @@ import networkx as nx
 import copy
 import itertools
 from operator import itemgetter
-import graph
 
 def _csr_gen_triples(A):
 	"""Converts a SciPy sparse matrix in **Compressed Sparse Row** format to
